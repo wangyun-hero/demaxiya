@@ -13,6 +13,7 @@
 		CB8FC62C1EC70D46009BF292 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB8FC62A1EC70D46009BF292 /* Main.storyboard */; };
 		CB8FC62E1EC70D46009BF292 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB8FC62D1EC70D46009BF292 /* Assets.xcassets */; };
 		CB8FC6311EC70D46009BF292 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB8FC62F1EC70D46009BF292 /* LaunchScreen.storyboard */; };
+		CB8FC6391EC711F7009BF292 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB8FC6381EC711F7009BF292 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +26,7 @@
 		CB8FC62B1EC70D46009BF292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB8FC62D1EC70D46009BF292 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB8FC6301EC70D46009BF292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CB8FC6321EC70D46009BF292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB8FC6381EC711F7009BF292 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../rrrrrr/rrrrrr/Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +66,7 @@
 				CB8FC62A1EC70D46009BF292 /* Main.storyboard */,
 				CB8FC62D1EC70D46009BF292 /* Assets.xcassets */,
 				CB8FC62F1EC70D46009BF292 /* LaunchScreen.storyboard */,
-				CB8FC6321EC70D46009BF292 /* Info.plist */,
+				CB8FC6381EC711F7009BF292 /* Info.plist */,
 				CB8FC6211EC70D46009BF292 /* Supporting Files */,
 			);
 			path = rrrrrr;
@@ -137,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB8FC6391EC711F7009BF292 /* Info.plist in Resources */,
 				CB8FC6311EC70D46009BF292 /* LaunchScreen.storyboard in Resources */,
 				CB8FC62E1EC70D46009BF292 /* Assets.xcassets in Resources */,
 				CB8FC62C1EC70D46009BF292 /* Main.storyboard in Resources */,
@@ -272,7 +274,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = rrrrrr/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/../rrrrrr/rrrrrr/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = h.rrrrrr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -283,7 +285,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = rrrrrr/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/../rrrrrr/rrrrrr/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = h.rrrrrr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -309,6 +311,7 @@
 				CB8FC6371EC70D46009BF292 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
